@@ -1,0 +1,1047 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Redressed&family=Supermercado+One&family=Ubuntu:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Josefin+Sans:wght@300&family=Outfit:wght@600&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Josefin+Sans:wght@300&family=Lato:wght@300&family=Outfit:wght@600&family=Roboto:wght@100&display=swap');
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    width:100vw;
+    background-image:  linear-gradient(to bottom right, #df8738, #3c1d06,#221f1e);
+
+background-position: center;
+background-size: auto;
+
+}
+
+header{
+    width:100vw;
+    height:100vh;
+    position: relative;
+    margin-bottom:50px;
+
+}
+
+.header{
+    width: 100%;
+    background-image:  linear-gradient(to bottom right, #df8738, #3c1d06,black);
+
+}
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100vw;
+    height: 80px;
+    background-color: #07000e87;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid purple;
+}
+
+
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    margin:10px 30px;
+   
+}
+
+.menu li{
+    list-style: none;
+    
+    padding:10px 10px;
+}
+.menu li a{
+    color: #f59d50;
+    font-size: 27px;
+    text-decoration: none;
+    margin: 15px 20px;
+    text-transform: capitalize;
+    /* font-weight: bold; */
+    font-family: 'Cuprum', sans-serif;
+   clear: right;
+}
+
+.menuli a:hover{
+    background-color: #ffa24d;
+    color: blanchedalmond;
+    
+    cursor: pointer;
+    
+    border-radius: 5px;
+
+}  .burger{
+display: none;
+position: absolute;
+top:7%;
+right:5%;
+
+
+}
+
+.line{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
+} 
+
+  .menu > li {
+    margin: 0 1rem;
+  } 
+
+  h1 {
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 0.15em;
+    font-size: 3em;
+    line-height: 1.2;
+    transform: translateY(52%);
+  }
+
+.name{
+    padding-left:50px;
+    
+   
+   
+}
+
+
+
+nav h2 {
+    font-size: 92px;
+    color: #ffa24d;
+    text-shadow: 1px 1px wheat;
+}
+.burger {
+    display: none;
+    position: absolute;
+    top:5%;
+    right: 5%;
+}
+
+.line{
+    width:30px;
+    height:5px;
+    margin:5px;
+    background-color: white;
+}
+
+.navbar img{
+    width: 97px;
+    height: 65px;
+    
+    margin-left: -15px;
+    margin-bottom: -9px;
+}
+.work{
+    position: absolute;
+    position: absolute;
+    top: 16%;
+    right: 3%;
+    display: flex;
+   
+    flex-direction: row;
+}
+.work ul{
+    display: flex;
+    flex-direction: row;
+}
+.work-li{
+    list-style: none;
+    padding: 3px 10px;
+   
+   
+    margin: 0px 3px;
+}
+.work-li a{
+    text-decoration: none;
+    font-family: 'Cuprum', sans-serif;
+    font-size: 20px;
+    color:wheat;
+    padding: 3px 10px;
+    border-radius: 36px;
+    background-color: #9d3e05;
+    border: 3px solid #220436bf;
+
+}
+
+
+.work-li a:hover{
+    background-color: #f59d50;
+    color: black;
+   
+    cursor: pointer;
+}
+/* .header .box1{
+    position: absolute;
+    top: 25%;
+    left: 11%;
+    width: 450px;
+    height:490px;
+    border-radius: 7px;
+    background: linear-gradient(0.25turn, #3d0864, #540721, #f69d3c);
+    margin-left:10px;
+} */
+
+.hero .box1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 22.5%;
+    height: 30%;
+    position: absolute;
+    top: 33%;
+    left: 8%;
+
+}
+
+
+.header .box1 img{
+    width: 140px;
+    height: 140px;
+    border-radius: 7px;
+    margin: 1px;
+    border: 3px solid purple;
+}
+
+
+.box2{
+    width: 40%;
+    position: absolute;
+    top: 40%;
+    right: 17%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro{
+ 
+ display: flex;
+ justify-content: center;
+ align-items:center;
+}
+.intro h2{
+    font-size: 80px;
+    color: #9d3e05;
+    text-decoration: underline;
+    text-shadow: 2px 2px 1px #efd8d8;
+    text-align-last: center;
+    font-family: 'Redressed', cursive;
+    margin-right:10px;
+}
+
+
+.box2 img{
+  
+    width: 101px;
+    height: 100px;
+}
+.box2 p{
+    margin: 25px 7px;
+   
+    font-size: 25px;
+    color: #dfcb9f;
+
+    font-family: 'Cuprum', sans-serif;
+    padding: 18px 13px;
+    margin-left: 43px;
+    text-align: center;
+}
+   
+
+.about{
+    width: 80vw;
+    height: 95vh;
+    margin: 70px 70px;
+    /* background-color: #bb7e69ba; */
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding-top: 26px;
+    border-radius: 15px;
+    
+
+    margin-bottom: 100px;
+    position: relative;
+    margin-top: 50px;
+
+}
+.intro-about{
+    width:300px;
+    height:100px;
+ 
+    display: flex;
+    justify-content: center;
+    align-items:center;
+  
+    margin: auto;
+   }
+   .intro-about h2{
+       font-size: 70px;
+       color: #d56814;
+       font-family: 'Cuprum';
+       text-shadow: 2px 2px 1px #efd8d8;
+       text-align-last: center;
+       font-family: 'Baloo Bhai 2', cursive;
+
+       margin-right:10px;
+   }
+   .intro-about img{
+       width:100px;
+       height:80px;
+   }
+.about-me{
+    width: 100%;
+    height: 70%;
+  
+}
+
+
+.about-me p{
+    margin-top: 25px;
+    font-size: 28px;
+    color: wheat;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    padding: 11px 47px;
+   
+}
+    
+
+
+.about-me span{
+    font-size: 39px;
+   color: #1a0711;
+    font-weight: bold;
+    font-family: 'Redressed';
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+    padding:5px;
+    margin-top: -57px;
+}
+.moms-tinykids{
+
+   display: flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+    
+   
+}
+.moms-tkids{
+    
+    width: 80vw;
+    margin: auto;
+    height:90vh;
+        display: flex;
+        flex-direction: column;
+        /* background-image: url("/img/2.jpg"); */
+        /* background-color: #cccccc;
+        
+        background-position: center; 
+        background-repeat: no-repeat; 
+        background-size: cover; */
+        border: 10px solid #0b4a37;
+      border-radius: 10px;
+      margin-top:100px;
+      position: relative;
+
+}
+.moms-tkids::before{
+    content: '';
+    background-image: url("/img/2.jpg");
+    background-color: #cccccc; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+  z-index:-1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* opacity: .55; */
+  filter: blur(4px)
+}
+
+
+.intro-mnt{
+    display: flex;
+    flex-direction: column;
+   
+    margin: auto;
+    margin-top: 100px;
+}
+
+.box-mnt{
+    
+    color: #0668b1;
+    width: 51%;
+    height: 323px;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    margin: 50px;
+    display: block;
+    margin: auto;
+   
+}
+
+.intro-mnt p{
+    color: #efe9e1;
+    margin: 21px 2px;
+    font-size: 23px;
+    font-family: 'Lato', sans-serif;
+    margin-top: 0px;
+    font-weight: bold;
+  line-height: 35px;
+}
+    
+.intro-mnt h2{
+    padding-top: 12px;
+    text-align: center;
+    font-size: 59px;
+    text-shadow: 1.5px 1.5px #efe8e5;
+    color:#721419;
+    font-family: 'Baloo Bhai 2', cursive;
+
+}
+
+.swiper {
+    margin-top: 73px;
+    width: 100%;
+    height: 70%;
+    margin-bottom: 2px;
+   background: none;
+}
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 220px;
+  height: 250px;
+
+  padding :15px 15px;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, #0006);
+  margin-bottom: -20px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height:250px;
+
+}
+.designing-work{
+    width:80vw;
+    height:95vh;
+    
+
+ border: 10px solid rgb(96 133 98);
+ border-radius: 10px;
+ margin-top:100px;
+ margin: auto;
+ margin-bottom: 100px;
+ position: relative;
+
+}
+.designing-work::before{
+    content: '';
+    background-image: url("/webimg/design work/8.jpg");
+    background-color: #cccccc; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+  z-index:-1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 1.5;
+}
+
+.img-queue{
+    width: 100%;
+    height: 71;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+
+}
+.img-queue .img-4{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.img-queue .img-4 img{
+    width:120px ;
+    height:120px;
+    margin: 2px 2px;
+    border: 3px solid #09426a;
+    border-radius: 5px;
+}
+
+.img-queue .img-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.img-queue .img-3 img{
+    width:120px ;
+    height:120px;
+    margin: 2px 2px;
+    border: 3px solid #09426a;
+    border-radius: 5px;
+}
+.img-queue .img-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.img-queue .img-2 img{
+    width:120px ;
+    height:120px;
+    margin: 2px 2px;
+    border: 3px solid #09426a;
+    border-radius: 5px;
+}
+
+ .design{
+    text-align: center;
+    margin: 30px 86px;
+    position: absolute;
+    top:0%;
+    right:0%;
+}
+.design-text{
+    display: block;
+    width: 64%;
+    margin: 0 15px;
+    float: right;
+    padding-right: 100px;
+    margin: 10px 0px;
+    margin-right: -85px;
+}
+.design h1{
+    
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 1.5px 1.5px coral;
+    color: #121448;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+   
+
+
+.design p{
+
+
+color:#220436;
+
+font-size: 25px;
+font-weight: bold;
+margin-top:36px;
+font-family: 'Lato', sans-serif;
+}
+.art-work-section{
+    height: 95vh;
+    width: 80vw;
+      margin: auto;
+      border: 10px solid #0b4a37;
+      border-radius: 10px;
+      margin-top:100px;
+      margin-bottom: 50px;
+      position: relative;
+}
+.art-work{
+    background-image: linear-gradient(to right, #030616 , #72324fe8, #673ab7);
+      height:100%;
+      width:100%;
+        display: flex;
+        flex-direction: column;
+        background-image: url("/img/8.jpg");
+        background-color: #cccccc; 
+        
+        background-position: center; 
+        background-repeat: no-repeat; 
+        background-size: cover;
+
+}
+.box-1-art{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 291px;
+    margin-left: 55px;
+    margin-top: 52px;
+}
+
+
+.art-work h2{
+    text-align: center;
+    font-size: 60px;
+    color: #9f1e1e;
+    font-family: 'Redressed', cursive;
+    margin-bottom: 30px;
+    text-shadow: 1.5px 2.5px wheat;
+    text-decoration: underline;
+    font-family: 'Baloo Bhai 2', cursive;
+        margin-left: 30px;
+    margin-top: 15px;
+}
+.art-work p{
+    text-align: center;
+    font-size: 25px;
+    color: #e5edeb;
+    font-weight: bold;
+   margin-top: 0px;
+}
+    .slider{
+        height: 450px;
+        margin: auto;
+        position: relative;
+        width: 100%;
+        display: grid;
+        place-items: center;
+        overflow: hidden;
+        position: absolute;
+        bottom: 0%;
+       
+    }
+    .slide-track{
+        display: flex;
+        width: calc(250px *12);
+        animation: scroll 40s linear infinite;
+        
+    }
+    @keyframes scroll{
+        0%{
+            transform: translateX(0);
+        }
+        100%{
+            transform: translateX(calc(-250px *6));
+        }
+    }
+.slide{
+        display: block;
+    align-items: center;
+    justify-items: center;
+/*  
+    background-color: #111e1a; */
+    height: 23vh;
+    width: 80vw;
+    margin: auto;
+    position: relative;
+    margin-top: 200px;
+    margin-left: 50px;
+    perspective: 100px;
+    
+ 
+    }
+
+   .slider img{
+        width:180px;
+        height:180px;
+     
+        border: 2px solid #8bbe4b;
+     
+    }
+  .slider img:hover{
+        transform: translateZ(20px);
+    }
+    .slider::before,
+    .slider::after{
+        /* background-color: black; */
+        content: '';
+        height:100%;
+        position: absolute;
+        width: 15%;
+        z-index: 2;
+    }
+    .slider::before{
+        left:0;
+        top:0;
+    }
+    .slider::after{
+        right:0;
+        top:0;
+        transform: rotateZ(180drg);
+    }
+    .party-deco-section{
+        height: 95vh;
+        width: 80vw;
+          margin: auto;
+          border: 10px solid #0b4a37;
+          border-radius: 10px;
+          margin-top:100px;
+          margin-bottom: 50px;
+          position: relative;
+    }
+    .party-deco{
+      
+            display: flex;
+            flex-direction: column;
+        /* background-image: url(/img/1.party.jpg); */
+           
+    
+    }
+    .party-deco::before{
+        content: '';
+        background-image: url(/img/1.party.jpg);
+        background-position: center; 
+        background-repeat: no-repeat; 
+        background-size: cover; 
+      z-index:-1;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: .5;
+    }
+    .box-1-party{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 560px;
+        height: 300px;
+        margin: auto;
+        /* margin-left: 355px; */
+     
+    }
+    
+    
+    
+    .box-1-party h2{
+        text-align: center;
+        font-size: 60px;
+        color: #f5f5be;
+        /* font-family: 'Redressed', cursive; */
+        margin-bottom: 30px;
+        text-shadow: 1.5px 2.5px #870c40;
+        text-decoration: underline;
+        font-family: 'Baloo Bhai 2', cursive;
+        margin-left: 30px;
+        margin-top: 15px;
+    }
+        .box-1-party p{
+        text-align: center;
+        font-size: 25px;
+        color: white;
+      margin-top: 0px;
+        margin-bottom: 20px;
+        font-family: 'Lato', sans-serif;
+    }
+    
+    .summer-camp-section{
+        height: 95vh;
+        width: 80vw;
+          margin: auto;
+          border: 10px solid #0b4a37;
+          border-radius: 10px;
+          margin-top:100px;
+          margin-bottom: 50px;
+          position: relative;
+    }
+    .summer-camp{
+      
+            display: flex;
+            flex-direction: column;
+            /* background-image: url("/img/su-pic.jpg");
+            background-color: #cccccc;
+            
+            background-position: center; 
+            background-repeat: no-repeat; 
+            background-size: cover;
+     */
+    }
+    .summer-camp::before{
+        content: '';
+        background-image: url("/img/su-pic.jpg");
+            background-color: #cccccc;
+            
+            background-position: center; 
+            background-repeat: no-repeat; 
+            background-size: cover;
+    
+      z-index:-1;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: .5;
+    }
+    .box-1-summer-camp{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 700px;
+        height: 291px;
+        margin: auto;
+        /* margin-left: 355px; */
+        margin-top: 119px;
+        
+    }
+    
+    
+    
+    .box-1-summer-camp h2{
+        text-align: center;
+        font-size: 60px;
+        color: #f5f5be;
+        font-family: 'Baloo Bhai 2', cursive;
+        margin-bottom: 30px;
+        text-shadow: 1.5px 2.5px #870c40;
+        text-decoration: underline;
+     
+        margin-left: 30px;
+        margin-top: 15px;
+    }
+    
+    .box-1-summer-camp p{
+        text-align: center;
+        font-size: 25px;
+        color: white;
+        font-weight: bold;
+        margin-bottom: 20px;
+        font-family: 'Lato', sans-serif;
+        margin-top: 0px;
+    }
+    
+ 
+
+
+
+    .slide-gallery{
+        display: block;
+        align-items: center;
+        justify-items: center;
+        border: 10px solid #0b4a37;
+        border-radius: 10px;
+        background-color: #111e1a;
+        height: 90vh;
+        width: 80vw;
+        margin: auto;
+        position: relative;
+        background-image:linear-gradient(to bottom right, #df8738, #3c1d06,black);
+        margin-top: 100px;
+        overflow: hidden;
+        
+    }
+    .slide-gallery h2{
+        font-size: 70px;
+        color: #b57d2c;
+        /* text-decoration: underline; */
+        text-shadow: 2px 2px 1px #efd8d8;
+        text-align-last: center;
+        font-family: 'Baloo Bhai 2', cursive;
+        margin-right: 10px;
+        margin-top: 40px;
+    }
+    
+
+    .back-btn{
+        color: beige;
+    /* background-color: blanchedalmond; */
+    z-index: 1;
+ 
+    width: 50px;
+
+
+        cursor: pointer;
+        position: absolute;
+        top:5%;
+        right:3%;
+  
+
+    }
+    .back-btn img{
+        width: 37px;
+    height: 39px;
+}
+      
+    
+    .back-btn a{
+        text-decoration: none;
+        font-size: 18px;
+    }
+    .back-btn:hover{
+        background-color: #0668b1;
+        cursor: pointer;
+        
+        }
+
+    .art{
+        width: 66px;
+        height: 19px;
+        padding: 9px 14px;
+        color: #111e1a;
+        background-color: #f5f5dc75;
+        border: 2px solid #0b4a37;
+        border-radius: 10px;
+              font-size: 14px;
+       
+        float: right;
+        font-weight: 700;
+        cursor: pointer;
+
+    
+
+    }
+  .contact{
+    width: 80vw;
+    height: 70vh;
+    margin: auto;
+    margin-top: 200px;
+    margin-bottom: 200px;
+
+    position: relative;
+    
+  }
+.contact h2{
+  font-size: 70px;
+  color:  #bf6734;
+        /* text-decoration: underline; */
+        text-shadow: 2px 2px 1px #efd8d8;
+        text-align-last: center;
+        font-family: 'Baloo Bhai 2', cursive;
+        margin-right: 10px;
+        margin-top: 40px;
+  }
+  .cont{
+        justify-content: space-around;
+        
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width:100%;
+       
+    }
+      
+    
+    
+    .full-contact{
+               margin: 58px 48px 7px 25px;
+        display: flex;
+        flex-direction: row;
+        /* justify-content: center; */
+        align-items:flex-end;
+    }
+    
+    .full-contact h1{
+        font-size: 40px;
+        color: #cfa21a;
+        /* text-decoration: underline; */
+        text-shadow: 2px 2px 1px #efd8d8;
+        text-align-last: center;
+        font-family: 'Baloo Bhai 2', cursive;
+        margin-right: 10px;
+        margin-top: 40px;
+    }
+    .full-contact h3{
+        font-size: 25px;
+        color: #e3ce8e;
+        margin-left: 10px;
+        margin: 5px 5px;
+        font-family: 'Baloo Bhai 2', cursive;
+    }
+    .full-contact img{
+        width: 38px;
+        height: 39px;
+       
+        color: #030616;
+    
+    }
+    .comment{
+        /* border:2px solid grey; */
+       
+        height:350px;
+        margin-left:70px;
+        width: 40vw;
+       
+       
+    }
+    .comment h1{
+        font-size: 40px;
+        color: #cfa21a;
+        /* text-decoration: underline; */
+        
+        text-align-last: center;
+        font-family: 'Baloo Bhai 2', cursive;
+        margin: 43px 10px 38px 2px;
+    }
+    .comment #name{
+        width: 35vw;
+        height:45px;
+        margin: 10px 10px 10px 50px;
+        background-color: #b9b985;
+    color: black;
+    font-size: 20px;
+}
+    
+    
+    .comment #email{
+        width: 35vw;
+        height:45px;
+        margin: 10px 10px 10px 50px;
+        background-color: #b9b985;
+    color: black;
+    font-size: 20px;
+}
+    
+    .comment #comment{
+        width: 35vw;
+        height:150px;
+        margin: 10px 10px 10px 50px;
+        background-color: #b9b985;
+    color: black;
+    font-size: 20px;
+}
+    
+   
+    .post-comment a{
+        font-size: 25px;
+        padding:10px 20px;
+        /* border-block: 2px; */
+        /* border:2px; */
+        
+        color: #e5b11d;
+        margin: 20px 50px;
+        list-style: none;
+        
+    }
+    .post-comment a:hover{
+        background-color: brown;
+        color: cornsilk;
+    }
+    .container-1{
+        margin-left: 85px;
+        margin-top: 83px;
+    }
+    footer{
+       width:100vw;
+       padding: 10px;
+        text-align: center;
+        font-size: 30px;
+        color: #e5b11d;
+        font-family: 'Baloo Bhai 2', cursive;
+        border: 2px solid #5e4911;
+
+
+    }

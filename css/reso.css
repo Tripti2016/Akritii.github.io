@@ -1,0 +1,662 @@
+@media screen and (max-width: 1326px) {
+    body{
+        width:100%;
+    }
+    .navbar{
+        height:58px;
+    }
+    nav h2{
+        font-size: 66px;
+    }
+    .work li{
+        padding: 0px;
+    }
+    .work li a{
+      font-size: 17px;
+    }
+    .hero .box1 {
+        width:25%;
+        top:29%;
+    }
+    .header .box1 img {
+        width:160px;
+        height:160px;
+    }
+
+.box2 {
+    width: 40%;
+    top: 30%;
+}
+.intro h2{
+    font-size: 60px;
+}
+.box2 p {
+    font-size: 20px;
+}
+header{
+    margin-bottom: 10px;
+}
+.about-me p {
+    font-size: 22px;
+    margin-top: 10px;
+}
+.about{
+    margin-top: 0px;
+}
+.img-queue .img-4 img{
+    width: 100px;
+    height: 100px;
+
+}
+.img-queue .img-2 img{
+    width: 100px;
+    height: 100px;
+
+}
+.img-queue .img-3 img{
+    width: 100px;
+    height: 100px;
+
+}
+.img-queue{
+    top:0%;
+}
+.design-text {
+    display: block;
+    width: 53%;
+
+    margin-top: 0px;
+    text-align: center;
+    margin: auto;
+    margin-right: -50px;
+}
+
+.design h1 {
+ 
+    font-size: 40px;
+}
+.design p {
+     font-size: 21px;
+
+}
+.slider img {
+    width: 160px;
+    height: 160px;
+}
+.art-work h2 {
+ 
+    font-size: 48px;
+}
+.art-work p {
+     font-size: 21px;
+     margin-top: 0px;
+
+}
+.box-1-art{
+    margin-top: 0px;
+}
+
+
+.box-1-party h2  {
+ 
+    font-size: 48px;
+}
+.box-1-party p {
+     font-size: 21px;
+
+}
+.intro-mnt h2  {
+ 
+    font-size: 48px;
+}
+.intro-mnt p {
+     font-size: 18px;
+     line-height: 30px;
+
+}
+.box-1-summer-camp {
+    margin-top: 0px;
+}
+
+.box-1-summer-camp h2 {
+ 
+    font-size: 48px;
+}
+.box-1-summer-camp p {
+     font-size: 21px;
+     margin-top: 5px;
+
+}
+.swiper{
+    margin-top: 0px;
+}
+.slide-gallery h2 {
+ 
+    font-size: 48px;
+    margin-bottom: 35px;
+}
+.cont{
+    align-items: flex-start;
+    margin-right: 50px;
+}
+.comment {
+   
+    height: 300px;
+    margin-left: 100px;
+    width: 40vw;
+    margin-top: 0px;
+}
+.contact h2{
+    font-size: 48px;
+}
+
+}
+@media screen and (max-width: 1170px){
+
+    .header .box1 img{
+      width:  130px;
+      height:130px;
+
+    }
+    .intro-mnt h2  {
+ 
+        font-size: 40px;
+    }
+    .about-me{
+        margin-top: 10px;
+    }
+    /* .img-queue {
+        top: 121%;
+    } */
+    .comment{
+        margin: 0px;
+    }
+    .cont {
+       
+        width: 62vw;
+        justify-content: center;
+    }
+    
+}
+@media screen and (max-width: 1080px){
+  
+
+    .intro {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        width: 50vw;
+    }
+    .intro 
+    .hero .box1 {
+        width: 28%;
+    }
+    
+.box2 img {
+    width: 90px;
+    height: 90px;
+}
+.img-queue {
+    top: 31%;
+    right: 5%;
+}
+.img-4 img{
+    display:none;
+
+}
+.box-1-art {
+    margin-top: 0px;
+}
+
+}
+@media (max-width: 999px) {
+    
+    .menu {
+        flex-direction: column;
+        position: absolute;
+        top:10%;
+        right:-3%;
+        
+        z-index: 1;
+        background-color:rgb(32 15 3 / 76%);;
+     width:80%;
+    
+    }
+    .menu li a{
+        color: white;
+    }
+    .burger{
+        display: block;
+    }
+.v-class{
+    opacity: 0;
+}
+.full-contact{
+    margin-left:100px;
+}
+.burger.v-class .line:nth-child(2) {
+    opacity: 0;
+    z-index: 1;
+}
+.burger.v-class .line:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.burger.v-class .line:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+.intro-mnt p {
+    font-size: 18px;
+    line-height: 24px;
+}
+.intro-about{
+    margin-bottom: -22px;
+}
+
+}
+
+
+
+   @media (max-width: 864px) {
+       body{
+           width:100vw;
+       }
+       .header .box1 img {
+        width: 90px;
+        height: 90px;
+    }
+    .designing-work {
+        width: 90vw;
+        margin-top: 214px;
+    }
+       .work {
+           flex-direction: column;
+           position: absolute;
+           position: absolute;
+           top: 25%;
+           right: 3%;
+           display: flex;
+       }
+       .work li{
+           margin: 15px 0px;
+       }
+       .box2{
+        width:40%;
+        position: absolute;
+        top: 20%;
+        right: 27%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .intro{
+        flex-direction: column;
+    }
+
+.intro h2 {
+    font-size: 45px;
+       }
+.intro img{
+    width:50px;
+    height:50px;
+}
+.box1 img{
+    width:100px;
+    height:100px
+}
+.design p {
+    font-size: 18px;
+}
+.design h1 {
+    font-size:43px;
+}
+/* .img-queue {
+    top: 138%;
+    right: 12%;
+} */
+.design-text {
+    display: block;
+    width: 63%;
+    margin-top: 0px;
+    text-align: center;
+    margin: auto;
+    margin-right: -117px;
+    margin-top: 20px;
+}
+.post-comment a {
+    font-size: 23px;
+}
+.container-1 {
+    width: 110%;
+    margin-left: 33px;
+    margin-top: 83px;
+}
+.about{
+    width:90vw;
+}
+.designing-work {
+    width: 90vw;
+}
+.art-work-section {
+
+    width: 90vw;
+
+   }
+   .moms-tkids {
+    width: 90vw;
+   }
+.party-deco-section {
+   
+    width: 90vw;
+
+}
+.summer-camp-section {
+
+    width: 90vw;
+}
+.slide-gallery {
+    width:90vw;
+}
+.contact{
+    width:100vw;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+    height:auto;
+}
+.cont{
+width: 90vw;
+
+flex-direction: column;
+}
+.container-1{
+width: 47%;
+margin: 0px;
+margin-right: 10px;
+}
+.full-contact{
+    margin-left: 0px;
+}
+.comment{
+    width: 55%;
+
+}
+.comment #email{
+    width:80vw;
+
+  
+}
+.comment  #name {
+
+
+    width:80vw;
+}
+.comment #comment {
+
+
+    width:80vw;
+}
+.box-mnt{
+    width:70%;
+}
+.box-1-summer-camp{
+    width: 75%;
+}
+
+   }
+
+@media (max-width: 700px){
+    body{
+        width:100vw;
+    }
+    
+    .hero .box1 {
+        width: 25%;
+        top: 53%;
+        left: 17%;
+    }
+    .box-1-summer-camp p {
+        font-size: 19px;
+        /* margin-top: 5px; */
+    }
+
+ .box2{
+width: 100%;
+top: 13%;
+left: 0%;
+    }
+    .intro{
+        flex-direction: row;
+    }
+    .work{
+        top: 45%;
+        right: 2%;
+    }
+    .about-me span {
+        font-size: 28px;
+   }
+   .about-me p {
+    font-size: 19px;
+   }
+  .img-queue .img-3 {
+   display: none;
+} 
+.img-queue .img-2{
+   
+    flex-direction: row;
+}
+
+.design-text {
+      width: 100%;
+}
+.img-queue {
+    /* display: block; */
+    /* top: 121%; */
+    /* right: -17%; */
+    margin: auto;
+    position: static;
+    margin: 0px 130px;
+    padding: 40px 47px;
+    margin-right: 0px;
+}
+.post-comment{
+       width: 120%;
+       margin-bottom: 50px;
+    }
+    .comment{
+        margin-bottom: 30px;;
+    }
+    /* footer
+    {width:100%;
+    } */
+   
+}
+@media (max-width:664px){
+    body{
+        width:100%;
+    }
+    .intro{
+        width:100%;
+        justify-content: center;
+        
+    }
+   
+    .box-2 p{
+        margin-top:-10px;
+    }
+    footer{
+        border: none;
+    }
+}
+@media (max-width:664px){
+
+/* .hero .box1 {
+    display: flex;
+    flex-direction: column;
+height: auto;
+           top: 41%;
+} */
+.box2 p{
+    font-size: 18px;
+    margin-top: -11px;
+
+}
+.box2{
+    position: static;
+    padding-top: 62px;
+
+}
+.about {
+    width: 90vw;
+    margin-left: 0px;
+    margin-bottom: 100px;
+}
+
+}
+@media (max-width:572px){
+.design-text {
+    width: 346px;
+    }
+.box-1-art {
+    width: 346px;
+    }
+.box-1-party{
+    width: 346px;
+    }
+    .box-1-summer-camp{
+        width: 346px;
+        margin-top: 60px;
+    }
+    .post-comment {
+        width: 149%;
+    }
+    /* .hero .box1{
+    flex-direction:column;
+    width: 100%;
+    } */
+.work {
+        top: 41%;
+        right: 7%;
+ }
+.box-1-party h2 {
+        font-size: 36px;
+    }
+
+.art-work h2{
+    margin-bottom: 0;
+}
+.about-me p {
+   width:90%;
+}
+.intro-mnt{
+    margin-top: 0;
+}
+.box-1-summer-camp h2 {
+    font-size: 38px;
+}
+}
+
+@media (max-width:472px){
+    body{
+        width:100%;
+    }
+.design-text {
+    width: 50%;
+}
+.box-1-art {
+    width: 250px;
+}
+.box-1-art h2{
+    font-size: 40px;
+}
+
+.box-1-party{
+    width: 75%;
+}
+.box-1-summer-camp{
+    width:75%;
+}
+.img-queue {
+    width:100%;
+padding : 0;
+}
+.design h1 {
+    font-size: 33px;
+}
+.about-me p{
+
+    width: 100%;
+    margin-left: -10%;
+}
+.design-text{
+    width: 80%;
+    margin-left: 5px;
+}
+.design-text h1{
+    margin-top: 10px;
+}
+.box-1-summer-camp h2 {
+    margin-bottom: 0px;
+}
+.post-comment a {
+    width: 100%;
+    font-size: 20px;
+}
+
+}
+@media (max-width:410px){
+    body{
+        width:100vw;
+    }
+    .hero .box1{
+        left:0%;
+    }
+    .intro-about img {
+        width: 87px;
+        height: 56px;
+    }
+    .intro-about h2 {
+        font-size: 40px;
+    }
+    .intro{
+        margin-bottom: 50px;
+    }
+   
+    .box-1-art {
+        width: 266px;
+        margin-left: 11px;
+    }
+    .intro-mnt {
+        margin-top: 46px;
+    }
+
+    .intro-mnt p {
+        width: 118%;
+        margin-left: -22px;
+        margin-top: 20px;
+        line-height: 20px;
+    }
+    .box-1-summer-camp {
+        width: 100%;
+    }
+    .design-text {
+        width: 67%;
+    }
+    .post-comment {
+        width: 165%;
+    }
+    .designing-work {
+  
+        margin-top: 308px;
+    }
+    
+    .box2 p {
+    
+        margin-top: -57px;
+    }
+
+}
+
+
+
+   

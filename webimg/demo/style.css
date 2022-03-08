@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    padding:0;
+}
+Body{
+    
+    font-family: 'Supermercado One', cursive;
+}
+nav{
+    height: 100vh;
+ 
+    
+}
+.container{
+    display: flex;
+    align-items: center;
+    padding:10px 10px;
+
+
+    
+}
+
+.box{
+    
+}
+/* nav ul {
+    display: flex;
+    flex-direction: row;
+
+} */
+nav ul li{
+    list-style: none;
+    margin:5px 5px;
+    padding: 5px 5px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: cornsilk;
+    font-size: 20px;
+    margin: 5px;
+
+}
+nav ul li a:hover{
+   color: crimson;
+    background-color: cornsilk;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.search{
+    float: right;
+    margin: 13px 27px;
+    height:100px;
+}
+.search input{
+    border-radius: 3px;
+}
+#btn{
+    padding:5px 5px;
+    color: white;
+    background-color: brown;
+    border-radius: 5px;
+    font-size: 15px;
+
+}
+#btn:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
+.container img{
+    width:80px;
+    height:80px;
+    
+    background: none;
+    
+}
+.navlist ul{
+    display: flex;
+    margin: 5px;
+}
+.background{ 
+    display: block;
+    margin: auto;
+    align-items: center;
+    background: rgba(0,0,0,.7) url('/iEdu/img/bg.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    cursor: pointer;
+    background-color: black;
+    width: 100%;
+    height: 70px;
+    position: relative;
+
+}
+ul{
+    display: flex;
+    margin-left: 100px;
+}
